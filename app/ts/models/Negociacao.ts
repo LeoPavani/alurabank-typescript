@@ -1,7 +1,15 @@
 // Para criar a classe, sempre começamos o nome do arquivo e o nome da classe com letra maiúscula
+// No caso de um Model,
 // Colocamos o constructor, que vai ditar as regras...
 // ou seja, ele vai estabelecer os atributos da classe, para que, sempre que ela or instanciada ela tenha esses 3 atributos
+
+
 class Negociacao{
+  
+  private _data;
+  private _quantidade;
+  private _valor;
+  
   constructor(data, quantidade, valor){
     this._data = data;
     this._quantidade = quantidade;
