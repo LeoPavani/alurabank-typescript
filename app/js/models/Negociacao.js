@@ -3,10 +3,10 @@
 // Colocamos o constructor, que vai ditar as regras...
 // ou seja, ele vai estabelecer os atributos da classe, para que, sempre que ela or instanciada ela tenha esses 3 atributos
 class Negociacao {
-    constructor(data, quantidade, valor) {
-        this._data = data;
-        this._quantidade = quantidade;
-        this._valor = valor;
+    constructor(_data, _quantidade, _valor) {
+        this._data = _data;
+        this._quantidade = _quantidade;
+        this._valor = _valor;
     }
     get data() {
         return this._data;
